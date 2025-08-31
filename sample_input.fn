@@ -1,0 +1,19 @@
+fn int my_fn(int x, float y) {
+    string my_str = "hmm";
+    bool my_bool = x == 40;
+    // Unicode identifier and string:
+    int café = 2;
+    string emoji = "smile: \u263A";
+    // Escapes:
+    string esc = "quote: \" tab:\t newline:\n backslash:\\ end";
+    /* block
+       comment */
+    if (x <= 10 && y != 0.0) {
+        x += 1;
+    } else {
+        while (x > 0) { x--; }
+    }
+    // invalid identifiers (uncomment to test errors)
+    // 123abc = 5;
+    return x;
+}
